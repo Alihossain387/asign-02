@@ -1,0 +1,17 @@
+@media screen and (max-width:600px) {
+ .bar-section {
+  width: 600px;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+ }
+ .bar-logo {
+  width: 100%;
+  justify-content: center;
+ }
+ .bar-menu {
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+ }
+}

@@ -1,0 +1,49 @@
+/* shared style */
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
+
+* {
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ font-family: 'Mulish', sans-serif;
+}
+/* style for header section */
+.bar-section {
+ border: 2px solid black;
+ width: 1170px;
+ min-height: 40px;
+ margin: 0 auto;
+ display: flex;
+}
+.bar-logo {
+ border: 2px solid green;
+ min-height: 40px;
+ width: 50%;
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+}
+.bar-logo h1{
+ color: #131318;
+ font-size: 2.25rem;
+ font-weight: 800;
+}
+.unique{
+ color: #FF5400;
+}
+
+.bar-menu {
+ border: 2px solid red;
+ min-height: 40px;
+ width: 50%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.bar-menu a {
+ color: #424247;
+ font-size: 1.125rem;
+ font-weight: 400;
+ text-decoration: none;
+}
