@@ -63,6 +63,34 @@
     width: 100%;
     margin: 0 auto;
   }
+  .why-content-container {
+    flex-direction: column;
+  }
+  .news {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .news-content-container{
+     width: 100%;
+     
+  }
+  ..news-img-container{
+    width: 100%;
+    
+  }
+  .news-img-container img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+    
+  .footer{
+    width: 375px;
+    height: 380px;
+    margin-top: 100px;
+
+  
+  }
   
 
 }

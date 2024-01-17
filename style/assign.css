@@ -91,6 +91,7 @@ color: #424247;
 .btn-primary {
 background: #FF5400;
 color: #FFF;
+font-size: 20px;
 }
 /* style for tour */
 .tour {
@@ -179,4 +180,134 @@ margin-left: 15px;
   color: #FFF;
   font-size: 28px;
   font-weight: 800;
+}
+/* style for why */
+.why {
+  max-width: 1170px;
+  margin: 50px auto;
+  border-radius: 16px;
+
+}
+.hotel {
+  display: grid;
+  width: 573px;
+  height: 284px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 10px;
+}
+.map {
+  display: grid;
+  width: 573px;
+  height: 284px;
+  padding: 10px;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+}
+.best {
+  display: grid;
+  width: 573px;
+  height: 284px;
+  padding: 10px;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.20);
+  background: rgba(233, 68, 68, 0.05);
+}
+.why-content-container {
+  display: flex;
+  column-gap: 10px;
+  justify-content: space-between;
+}
+/* style for news */
+.news {
+  max-width: 1170px;
+  margin: 50px auto;
+  border-radius: 16px;
+  /* border: 2px solid red; */
+  display: flex;
+  min-height: 500px;
+}
+.news-content-container{
+  background-color: #FFF; 
+  width: 40%;
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.box{
+  display: grid;
+  gap: 10px;
+  justify-content: center;
+}
+.box input{
+  width: 393px;
+  height: 52px;
+  background: rgba(19, 19, 24, 0.05);
+  border-radius: 8px;
+  border: none;
+  display: grid;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+.button{
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  background: #FF5400;
+  font-size: 20px;
+  color: #FFF;
+  
+}
+.news-img-container{
+  width: 70%;
+  /* border: 2px solid black; */
+  position: relative;
+}
+.news-img-container img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  margin: 0 auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.save {
+  width: 324px;
+  height: 120px;
+  border-radius: 16px;
+  background: #FF5400;
+  color: #FFF;
+  border: none;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: rotate(-19.628deg);
+
+}
+/* style for footer */
+footer{
+  width: 1440px;
+  min-height: 500px;
+  margin: 50px auto;
+  border: 2px solid green;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+}
+.social a{
+  text-decoration: none;
 }
