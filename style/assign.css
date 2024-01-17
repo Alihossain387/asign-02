@@ -296,7 +296,7 @@ footer{
   width: 1440px;
   min-height: 500px;
   margin: 50px auto;
-  border: 2px solid green;
+  
   display:flex;
   flex-direction: column;
   justify-content: center;
